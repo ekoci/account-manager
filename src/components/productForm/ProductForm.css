@@ -1,0 +1,65 @@
+.product-form{
+    width:100%;
+    padding: 30px;
+    border-radius: 9px;
+    opacity: 1;
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.input-label{
+    font: normal normal bold 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+
+.input-form{
+    background: #131313 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border: none;
+    height: 50px;
+    width: 100%;
+    margin-top:15px;
+    font: normal normal normal 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC!important;
+    opacity: 1;
+    padding: 15px;
+}
+
+.add-product-button{
+    background: #00BC87 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    width: 130px;
+    height: 40px;
+    border: none;
+    font: normal normal bold 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.input-container{
+    margin-top:30px
+}
+.autocomplete-input{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+#combo-box-demo .MuiFormControl-root .MuiAutocomplete-input{
+    color: #FFFFFF!important;
+}
+.MuiAutocomplete-hasPopupIcon .MuiAutocomplete-inputRoot, .MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot{
+    color: #FFFFFF!important;
+}
+.MuiSvgIcon-root{
+    color: #FFFFFF!important;
+}
+.MuiInput-underline:after{
+    border-bottom: none!important;
+}

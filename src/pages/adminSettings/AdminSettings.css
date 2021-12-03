@@ -1,0 +1,11 @@
+.admin-settings{
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    padding:30px
+}
+
+.settings-margin{
+    margin-left: 100px;
+    margin-right: 100px;
+}

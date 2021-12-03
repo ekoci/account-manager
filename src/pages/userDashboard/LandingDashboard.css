@@ -1,0 +1,44 @@
+.user-dashboard-funds{
+    height: 125px;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.user-dashboard-footer{
+    display: flex;
+    flex-direction: column;
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    padding: 30px;
+    margin-top: 30px;
+}
+.staff-members-header{
+    text-align: left;
+    font: normal normal bold 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+.staff-members{
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+    margin-top: 15px;
+}
+
+.user-header-image{
+    height: auto;
+    width: 97px;
+    margin: 0px -15px;
+}
+
+.user-dashboard-content{
+    text-align: left;
+    font: normal normal bold 25px/24px Roboto;
+    letter-spacing: 0px;
+    color: #00BC87;
+}

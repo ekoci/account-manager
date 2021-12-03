@@ -1,0 +1,30 @@
+.admin-transaction{
+    /*margin-top: 120px;*/
+    width: 100%;
+    padding: 0px 100px!important;
+}
+
+.admin-transaction .admin-transaction-tittle{
+    font: normal normal bold 21px/28px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+.admin-transaction .admin-transaction-label{
+    text-align: left;
+    font: normal normal normal 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: #989898;
+    opacity: 1;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.page-back-transaction{
+    font: normal normal normal 13px/18px Roboto;
+    color: #989898;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+.page-back-transaction a{
+    color: #989898;
+}

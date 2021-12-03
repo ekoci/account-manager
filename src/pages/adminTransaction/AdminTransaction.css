@@ -1,0 +1,25 @@
+.admin-transaction{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.transaction-name{
+    font: normal normal bold 21px/28px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+.transaction-label-column{
+    padding-top: 12px;
+    padding-left: 0px;
+}
+.transaction-label{
+    font: normal normal normal 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: #989898;
+    opacity: 1;
+}
+
+/*edit transaction*/
+

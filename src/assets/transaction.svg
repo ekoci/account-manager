@@ -1,0 +1,6 @@
+<svg height="512" viewBox="0 0 32 32" width="512" xmlns="http://www.w3.org/2000/svg" color="#00BC87">
+    <g id="trade_transaction_payment_trading" data-name="trade, transaction, payment, trading">
+    <path  style="fill:#00BC87;" d="m26.707 13.293-4-4a1 1 0 0 0 -1.414 1.414l2.2929 2.293h-13.5859a1 1 0 0 0 0 2h16a1 1 0 0 0 .707-1.707z"/>
+    <path  style="fill:#00BC87;" d="m22 17h-16a1 1 0 0 0 -.707 1.707l4 4a1 1 0 0 0 1.414-1.414l-2.2929-2.293h13.5859a1 1 0 0 0 0-2z"/>
+    </g>
+</svg>

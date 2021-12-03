@@ -1,0 +1,15 @@
+.purchased-account{
+    display: flex;
+    padding-left: 12px;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.purchased-account-label{
+    font: normal normal normal 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: #989898;
+    opacity: 1;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,124 @@
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 130px;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+  
+    .container__art {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 620px;
+      background: #222222 0% 0% no-repeat padding-box;
+      border-radius: 0px 9px 9px 0px;
+      width: 377px;
+      position: relative;
+  
+      &__button {
+        background: #00BC87 0% 0% no-repeat padding-box;
+        border-radius: 9px;
+        color: #00BC87;
+        padding: 1em 3em;
+        margin: 0 auto;
+        border: none;
+        margin-top: 35px;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+        position: relative;
+        z-index: 11;
+      }
+  
+      p {
+        color: #CCCCCC;
+        text-align: center;
+        font-family: Roboto;
+        font-weight: bold;
+        font-size: 2rem;
+        margin: 0px;
+  
+      }
+  
+      &__upper {
+        position: absolute;
+        top: 0;
+        left: 78px;
+        transform: rotate(180deg);
+  
+        img {
+          width: 350px;
+          height: 318px;
+        }
+      }
+  
+      &__lower {
+        position: absolute;
+        z-index: 10;
+        top: 302px;
+        left: -52px;
+  
+        img {
+          width: 350px;
+          height: 318px;
+        }
+      }
+    }
+  
+    .container__form {
+      width: 506px;
+      height: 619px;
+      background: #1B1B1B 0% 0% no-repeat padding-box;
+      border-radius: 9px 0px 0px 9px;
+  
+      p:nth-child(1) {
+        color: #CCCCCC;
+        font-size: 2rem;
+        text-align: center;
+        font: normal normal bold 32px/38px Roboto;
+        margin-bottom: 0.4em;
+        margin-top: 1.9em;
+      }
+  
+      p:nth-child(2) {
+        text-align: center;
+        color: #CCCCCC;
+        font: normal normal normal 16px/19px Roboto;
+        margin-bottom: 1.75em;
+      }
+  
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        input {
+          border: none;
+          background: #222222 0% 0% no-repeat padding-box;
+          border-radius: 9px;
+          width: 400px;
+          height: 50px;
+          color: #CCCCCC;
+          margin: 0.75em;
+          text-indent: 1.7em;
+  
+          &:focus {
+            outline: none;
+            border: none;
+          }
+        }
+  
+      }
+    }
+  }
+  
+  .secondary {
+    font-size: 1rem !important;
+    font-weight: normal !important;
+  }
+  
+  .spacing {
+    margin-bottom: 10px !important;
+  }

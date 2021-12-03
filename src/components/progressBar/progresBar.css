@@ -1,0 +1,29 @@
+.progress-container{
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.progress-label{
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.progress-container .progress{
+    background: #131313 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    height: 32px;
+    margin-top: 15px;
+}
+.progress-container .progress .progress-bar{
+     background: #00BC87 0% 0% no-repeat padding-box !important;
+     border-radius: 9px;
+     opacity: 1;
+    font-size: 14px;
+}

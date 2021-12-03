@@ -1,0 +1,33 @@
+.spotify-table .MuiDataGrid-root{
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border: none;
+    color: #CCCCCC;
+}
+.spotify-table .MuiDataGrid-columnsContainer{
+    border-bottom: 1px solid #222222!important;
+}
+.spotify-table .MuiDataGrid-root .MuiDataGrid-cell{
+    border-bottom: 1px solid #222222!important;
+}
+
+.spotify-table .MuiDataGrid-columnSeparator{
+    display: none!important;
+}
+
+.spotify-table .MuiDataGrid-footer{
+    justify-content: center;
+}
+.spotify-table .MuiTablePagination-root{
+    color: #CCCCCC;
+}
+
+.spotify-table .MuiDataGrid-root .MuiDataGrid-colCellTitle{
+    font: normal normal bold 14px/17px Roboto;
+    color: #CCCCCC;
+}
+
+.spotify-table .MuiDataGrid-root .MuiDataGrid-columnsContainer {
+    justify-content: center;
+}

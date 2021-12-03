@@ -1,0 +1,27 @@
+.user-new-ticket{
+    display: flex;
+    flex-direction: column;
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.user-new-ticket-header{
+    text-align: left;
+    font: normal normal bold 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.user-new-ticket-label{
+    text-align: left;
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+    margin-top: 30px;
+}

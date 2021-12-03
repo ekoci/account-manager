@@ -1,0 +1,64 @@
+.homepage{
+    text-align: left;
+    /*background-color: #000;*/
+    /*height: 100vh !important;*/
+    margin-left: 60px;
+    padding: 50px;
+    width: 100%;
+}
+
+.dashboard-title{
+    text-align: left;
+    font: normal normal bold 21px/28px Roboto;
+    letter-spacing: 0px;
+    color: rgba(204, 204, 204, 1);
+    opacity: 1;
+}
+
+.dashboard-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.overview-label{
+    text-align: left;
+    font: normal normal normal 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: rgba(152, 152, 152, 1);
+    opacity: 1;
+}
+
+.dashboard-element{
+    height: 125px;
+    background: rgba(27, 27, 27, 1) 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+.element-number{
+    font: normal normal bold 25px/33px Roboto;
+    letter-spacing: 0px;
+    color: #00BC87;
+    opacity: 1;
+}
+
+.element-label{
+    font: normal normal medium 14px/19px Roboto;
+    letter-spacing: 0px;
+    color: #989898;
+    opacity: 1;
+}

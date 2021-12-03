@@ -1,0 +1,95 @@
+.admin-products{
+    margin-top: 100px;
+    margin-bottom: 70px;
+    /*padding: 0px 150px!important;*/
+}
+
+.admin-products-title{
+    text-align: left;
+    font: normal normal bold 21px/28px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+
+.admin-products-label{
+    text-align: left;
+    font: normal normal normal 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: #989898;
+    opacity: 1;
+    margin-top:20px
+}
+.button-container{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.admin-products-button.btn{
+    width: 175px;
+    height: 50px;
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border:none;font: normal normal bold 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+
+.admin-products-button.btn:hover{
+    width: 175px;
+    height: 50px;
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    border:none;
+    font: normal normal bold 13px/18px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+.admin-products-button a{
+    color: #CCCCCC;
+}
+.add-product{
+    margin-left: 20px!important;
+    color: #CCCCCC!important;
+}
+
+.table-button{
+    background: #222222 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    opacity: 1;
+    width: 111px;
+    height: 40px;
+    border: none;
+    font: normal normal normal 14px/17px Roboto;
+    letter-spacing: 0px;
+    color: #CCCCCC;
+    opacity: 1;
+}
+
+
+
+/*admin add page*/
+.page-back{
+    /*margin-left: 50px;*/
+    font: normal normal normal 13px/18px Roboto;
+    color: #989898;
+    opacity: 1;
+    margin-top: 50px;
+}
+.page-back a{
+    color: #989898;
+}
+
+.admin-add-products{
+    margin-top: 70px;
+    /*padding: 0px 150px!important;*/
+}
+
+.admin-container{
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 100px;
+}

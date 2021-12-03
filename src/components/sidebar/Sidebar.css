@@ -1,0 +1,110 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 100vh !important;
+    z-index: 100;
+    /*padding: 48px 0 0;*/
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    background-color: #1B1B1B;
+}
+#sidebar-wrapper{
+    min-height: 100vh !important;
+    width: 100vw;
+    margin-left: -1rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+}
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+}
+
+#page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 199px;
+    background: #1B1B1B 0% 0% no-repeat padding-box;
+    /*border-radius: 0px 0px 15px 0px;*/
+    opacity: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.logo-photo{
+    width: 50px;
+    height: 49px;
+}
+.sidebar-logo{
+    width: 20px;
+    height: 20px;
+}
+
+.sidebar-item{
+    height: 65px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: rgb(27, 27, 27);
+}
+.active-sidebar-item{
+    background-color: #131313 ;
+}
+
+.border-sidebar-top{
+    border-radius: 0px 15px 0px 0px;
+}
+
+.border-sidebar-bottom{
+    border-radius: 0px 0px 15px 0px;
+}
+
+.sidebar-footer{
+    background-color: rgb(27, 27, 27);
+    flex-grow: 1;
+    height: -moz-calc(100vh - (460px));
+    height: -webkit-calc(100vh - (460px));
+    height: calc(100vh - (460px));
+    position: relative;
+}
+.user-logout{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #131313 0% 0% no-repeat padding-box;
+    opacity: 1;
+    bottom: 55px;
+    display: flex;
+    align-self: center;
+    left: 10px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}
+.user-span{
+    text-align: left;
+    font: normal normal bold 24px/29px Roboto;
+    letter-spacing: 0px;
+    color: #00BC87;
+    opacity: 1;
+}
+/*.sidebar-footer-user{*/
+/*    */
+/*    background-color: rgb(27, 27, 27);*/
+/*    flex-grow: 1;*/
+/*    height: -moz-calc(100vh - (655px));*/
+/*    height: -webkit-calc(100vh - (655px));*/
+/*    height: calc(100vh - (655px));*/
+/*}*/
